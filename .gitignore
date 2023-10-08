@@ -162,6 +162,7 @@ cython_debug/
 # python-version
 .python-version
 
+# staging
 staging/.gitignore
 staging/.user.yml
 staging/analyses/.gitkeep
@@ -172,3 +173,39 @@ staging/seeds/.gitkeep
 staging/snapshots/.gitkeep
 staging/tests/.gitkeep
 staging/profiles.yml
+
+# landing
+landing/.gitignore
+landing/analyses/.gitkeep
+landing/macros/.gitkeep
+landing/models/example/my_first_dbt_model.sql
+landing/models/example/my_second_dbt_model.sql
+landing/seeds/.gitkeep
+landing/snapshots/.gitkeep
+landing/tests/.gitkeep
+staging/profiles.yml
+
+# dwh
+dwh/.gitignore
+dwh/analyses/.gitkeep
+dwh/macros/.gitkeep
+dwh/models/example/my_first_dbt_model.sql
+dwh/models/example/my_second_dbt_model.sql
+dwh/seeds/.gitkeep
+dwh/snapshots/.gitkeep
+dwh/tests/.gitkeep
+dwh/profiles.yml
+
+# mart
+mart/.gitignore
+mart/analyses/.gitkeep
+mart/macros/.gitkeep
+mart/models/example/my_first_dbt_model.sql
+mart/models/example/my_second_dbt_model.sql
+mart/seeds/.gitkeep
+mart/snapshots/.gitkeep
+mart/tests/.gitkeep
+mart/profiles.yml
+dwh/.user.yml
+landing/.user.yml
+mart/.user.yml
