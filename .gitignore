@@ -183,7 +183,7 @@ landing/models/example/my_second_dbt_model.sql
 landing/seeds/.gitkeep
 landing/snapshots/.gitkeep
 landing/tests/.gitkeep
-staging/profiles.yml
+landing/profiles.yml
 
 # dwh
 dwh/.gitignore
