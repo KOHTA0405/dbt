@@ -183,6 +183,7 @@ landing/models/example/my_second_dbt_model.sql
 landing/seeds/.gitkeep
 landing/snapshots/.gitkeep
 landing/tests/.gitkeep
+staging/profiles.yml
 
 # dwh
 dwh/.gitignore
@@ -193,6 +194,7 @@ dwh/models/example/my_second_dbt_model.sql
 dwh/seeds/.gitkeep
 dwh/snapshots/.gitkeep
 dwh/tests/.gitkeep
+dwh/profiles.yml
 
 # mart
 mart/.gitignore
@@ -203,6 +205,7 @@ mart/models/example/my_second_dbt_model.sql
 mart/seeds/.gitkeep
 mart/snapshots/.gitkeep
 mart/tests/.gitkeep
+mart/profiles.yml
 dwh/.user.yml
 landing/.user.yml
 mart/.user.yml
