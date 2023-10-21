@@ -209,3 +209,7 @@ mart/profiles.yml
 dwh/.user.yml
 landing/.user.yml
 mart/.user.yml
+
+# data
+data/*
+.DS_Store
