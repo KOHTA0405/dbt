@@ -226,3 +226,4 @@ data_vault/snapshots/.gitkeep
 data_vault/tests/.gitkeep
 data_vault/profiles.yml
 data_vault/.user.yml
+.vscode/settings.json
