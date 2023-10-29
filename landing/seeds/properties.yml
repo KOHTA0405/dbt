@@ -1,23 +1,55 @@
 version: 2
 
 seeds:
-  - name: raw_customers
+  - name: raw_brand
+    config:
+      column_types:
+        id: numeric
+        name: string
+        created_at: datetime
+        updated_at: datetime
+        delete_flag: boolean
+
+  - name: raw_category
+    config:
+      column_types:
+        id: numeric
+        name: string
+        created_at: datetime
+        updated_at: datetime
+        delete_flag: boolean
+
+  - name: raw_customer
     config:
       column_types:
         id: numeric
         first_name: string
         last_name: string
-  - name: raw_orders
-    config:
-      column_types:
-        id: numeric
-        user_id: numeric
-        order_date: date
-        status: string
-  - name: raw_payments
+        sex: string
+        created_at: datetime
+        updated_at: datetime
+        delete_flag: boolean
+
+  - name: raw_order_detail
     config:
       column_types:
         id: numeric
         order_id: numeric
-        payment_method: string
-        amount: numeric
+        product_id: numeric
+        price: numeric
+        quantity: numeric
+        created_at: datetime
+        updated_at: datetime
+
+  - name: raw_order
+    config:
+      column_types:
+        id: numeric
+        customer_id: numeric
+        prefecture: string
+        address: string
+        shipping_cost: numeric
+        billing_amount: numeric
+        status: string
+        created_at: datetime
+        updated_at: datetime
