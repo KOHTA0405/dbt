@@ -212,4 +212,17 @@ mart/.user.yml
 
 # data
 data/*
+
 .DS_Store
+
+# data_vault
+data_vault/.gitignore
+data_vault/analyses/.gitkeep
+data_vault/macros/.gitkeep
+data_vault/models/example/my_first_dbt_model.sql
+data_vault/models/example/my_second_dbt_model.sql
+data_vault/seeds/.gitkeep
+data_vault/snapshots/.gitkeep
+data_vault/tests/.gitkeep
+data_vault/profiles.yml
+data_vault/.user.yml
