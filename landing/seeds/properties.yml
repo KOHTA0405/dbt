@@ -53,3 +53,15 @@ seeds:
         status: string
         created_at: datetime
         updated_at: datetime
+
+  - name: raw_product
+    config:
+      column_types:
+        id: numeric
+        name: string
+        price: numeric
+        category_id: numeric
+        brand_id: numeric
+        created_at: datetime
+        updated_at: datetime
+        delete_flag: boolean
