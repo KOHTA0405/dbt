@@ -1,0 +1,12 @@
+versions: 2
+
+sources:
+  - name: structured
+    schema: landing
+    tables:
+      - name: raw_brand
+      - name: raw_category
+      - name: raw_customer
+      - name: raw_order
+      - name: raw_order_detail
+      - name: raw_product
