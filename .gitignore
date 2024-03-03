@@ -159,3 +159,12 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 .DS_Store
+.python-version
+dbt_project/.gitignore
+dbt_project/.user.yml
+dbt_project/analyses/.gitkeep
+dbt_project/macros/.gitkeep
+dbt_project/seeds/.gitkeep
+dbt_project/snapshots/.gitkeep
+dbt_project/tests/.gitkeep
+dbt_project/data/
