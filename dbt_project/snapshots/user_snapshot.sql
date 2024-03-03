@@ -2,11 +2,11 @@
 
 {{
     config(
-        target_database='dev-project-kohta-401305',
         target_schema='staging',
         unique_key='id',
         strategy='check',
-        check_cols="all"
+        check_cols="all",
+        invalidate_hard_deletes=True
     )
 }}
 
